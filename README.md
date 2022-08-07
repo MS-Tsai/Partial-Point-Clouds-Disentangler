@@ -1,5 +1,3 @@
-Comming soon :)
-
 # Self-Supervised Feature Learning from Partial Point Clouds via Pose Disentanglement
 PyTorch implementaton of our IROS 2022 paper "Self-Supervised Feature Learning from Partial Point Clouds via Pose Disentanglement".
 You can visit our project website [here](https://ms-tsai.github.io/Partial-Point-Clouds-Disentangler-Project-Page/).
@@ -27,9 +25,9 @@ Please cite our paper if you find it useful for your research.
 * This code was developed with Python 3.7.9 & Pytorch 1.2.0 & CUDA 10.0
 
 ## Dataset
-Complete/Partial point cloud data (TODO: Google driver link)
+* For Complete/Partial ShapeNet datasets, you can download from [here](https://drive.google.com/drive/folders/1SDTE0sLYW5hwXRGJjQssBJnpn56fQW3J?usp=sharing)
 
-## Compile our extension modules:
+## Compile our Extension Modules:
 ```
 cd emd
 python3 setup.py install
@@ -37,8 +35,13 @@ cd expansion_penalty
 python3 setup.py install
 ```
 
+## Pre-train Weight
+* For pre-train weight of our pretext model, you can download from [here](https://drive.google.com/drive/folders/1KWmSd2WS8JU25vXOQkzYx0lY2Lza2H39?usp=sharing)
+
 ## Training
-(TODO: Training instruction)
+```
+python train.py --gpu 0
+```
 
 ## Acknowledgments
 Our code is based on [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://github.com/yanx27/Pointnet_Pointnet2_pytorch), and [Dynamic Graph CNN for Learning on Point Clouds](https://github.com/WangYueFt/dgcnn).  
