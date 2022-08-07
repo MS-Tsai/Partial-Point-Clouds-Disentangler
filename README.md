@@ -35,9 +35,6 @@ cd expansion_penalty
 python3 setup.py install
 ```
 
-## Pre-train Weight
-* For pre-train weight of our pretext model, you can download from [here](https://drive.google.com/drive/folders/1KWmSd2WS8JU25vXOQkzYx0lY2Lza2H39?usp=sharing)
-
 ## Training
 ```
 python train.py --gpu 0
